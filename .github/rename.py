@@ -6,7 +6,7 @@ from ruamel.yaml import YAML
 # renames the main project in the template dir and in the project settings
 def rename_project(project_name, new_name = "template"):
     """renames the kicad project"""
-    project_path = str(Path(f"Hardware/{project_name}_PROJECT"))
+    project_path = str(Path(f"hardware/{project_name}_PROJECT"))
     files = os.listdir(project_path)
 
     for index, file in enumerate(files):
@@ -15,10 +15,10 @@ def rename_project(project_name, new_name = "template"):
 
     os.rename(project_path, project_path.replace(project_name, new_name))
 
-    pcb_path = str(Path(f"Hardware/{project_name}_PCB"))
+    pcb_path = str(Path(f"hardware/{project_name}_PCB"))
     os.rename(pcb_path, pcb_path.replace(project_name, new_name))
 
-    doc_path = str(Path(f"Hardware/{project_name}_DOCS"))
+    doc_path = str(Path(f"hardware/{project_name}_DOCS"))
     os.rename(doc_path, doc_path.replace(project_name, new_name))
 
 def main():

@@ -1,7 +1,7 @@
-needs_setup: true
+needs_setup: false
 
 # this is set to the name of your repo during setup, you can change it later on using the rename tool
-project_name: template
+project_name: watch
 
 # this is a list of the production formats that you would like
 # honestly only use gerbers, i doubt i will add anything else
@@ -16,7 +16,7 @@ bom_csv_output_path: docs/BOM/
 
 bom_report_output_path: docs/BOM/
 
-production_file_output_path: pcbs/
+production_file_output_path: production/
 
 # all names will follow the pattern [project_name]name.* 
 # these settings just define that name suffix

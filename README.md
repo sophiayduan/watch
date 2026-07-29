@@ -4,7 +4,7 @@
 a cool table showing the workflow of the kicad pcb.
 | ERC | DRC |
 | --- | --- |
-| [✅](https://github.com/sophiayduan/watch/actions/runs/30461285080/attempts/1#summary-90607862710)| [❌](https://github.com/sophiayduan/watch/actions/runs/30461285080/attempts/1#summary-90607862678) | 
+| [✅](https://github.com/sophiayduan/watch/actions/runs/30461878862/attempts/1#summary-90609869386)| [❌](https://github.com/sophiayduan/watch/actions/runs/30461878862/attempts/1#summary-90609869336) | 
 
 
 ![example pcb with battery diode and resistor](res/image.png)

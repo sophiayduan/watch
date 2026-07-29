@@ -1,26 +1,15 @@
 # watch
 [![.github/workflows/main.yaml](https://github.com/sophiayduan/watch/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/sophiayduan/watch/actions/workflows/main.yaml)
 
-a cool table showing the workflow of all the kicad projects.
-| project_name | DRC | ERC |
-| ------------ | --- | --- |
-| watch | [✅](https://github.com/sophiayduan/watch/actions/runs/30156732387/attempts/1#summary-89675794027)| [❌](https://github.com/sophiayduan/watch/actions/runs/30156732387/attempts/1#summary-89675794023) | 
+a cool table showing the workflow of the kicad pcb.
+| ERC | DRC |
+| --- | --- |
+| [✅](https://github.com/sophiayduan/watch/actions/runs/30461285080/attempts/1#summary-90607862710)| [❌](https://github.com/sophiayduan/watch/actions/runs/30461285080/attempts/1#summary-90607862678) | 
 
-
-This workflow will also run the design rules check on the PCB and schematic to ensure that you upload a working PCB. These reports are uploaded as summaries within the github [actions tab](https://github.com/sophiayduan/watch/actions/runs/30156732387). This template has a simple schematic PCB in it (because DRC fails on an empty PCB). Shown below is the example PCB.
 
 ![example pcb with battery diode and resistor](res/image.png)
 
-besides from that the project also has:
-
-- common predefined trace widths
-- smallest vias size [JLCPBC allows](https://jlcpcb.com/capabilities/Capabilities#Drilling)
-- custom net colours in the schematic editor
-    - `red` for +V
-    - `blue` for -V
-    - `grey` for ground
-
-contained in this template are:
+in this template are:
 ---
 - `.github/` : all files relating to github actions and other admin see [here](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions) for more example of what can be placed in it
     - `report_processing` : where the python scripts are stored for processing the json report data from kicad

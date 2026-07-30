@@ -30,7 +30,7 @@ I also considered some charging methods, but didn't get too far.
 ## July 24th
 Copied over a previous project's e-ink section, and modified it for the GDEM0122T21.
 
-![[Pasted image 20260725202734.png]]
+![](res/obsidian/Pasted%20image%2020260725202734.png)
 
 I was able to swap some parts to lower voltage ratings (saving money!), and smaller packages (saving space!!).
 
@@ -95,5 +95,7 @@ Amorphous, meaning 'having no definite form : shapeless' describes the ever-chan
 
 There are other solar cell alternatives which are difficult to source (such as [Exeger Powerfoyle](https://www.exeger.com/powerfoyle/)) as they are limited to B2B partnerships.
 
-*Time spent - 2.5 hours*  
+*Time spent - 2.5 hours*
+### July 30th
+Asked why images in journal.md weren't showing up on GitHub's site at 4:33 PM.  
 

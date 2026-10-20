@@ -1,4 +1,4 @@
-Here lie sporadic journals written in the moment. Properly structured project logs can be found in `DEVLOGS.md`
+Here lie sporadic journals written in the moment. They include random thoughts, crashouts, and lots of learnings. Properly structured project logs can be found in `DEVLOGS.md`
 
 **Total time spent:** - 13.5h  [*last updated: July 25th*] 
 ## July 20-22nd 
